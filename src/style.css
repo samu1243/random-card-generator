@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.carta {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+}
+#signoSuperior {
+  font-size: 5em;
+}
+#signoInferior {
+  font-size: 5em;
+}
+#numeritosCentral {
+  font-size: 9em;
+}
