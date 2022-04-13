@@ -43,6 +43,7 @@ window.onload = function() {
   let signoInferior = document.getElementById("signoInferior");
   signoSuperior.innerHTML = signo;
   signoInferior.innerHTML = signo;
+  document.getElementById("signoInferior").style.transform = "rotate(180deg)";
   document.getElementById("signoInferior").innerHTML = signo;
   if (signo === "♥") {
     signoSuperior.style.color = "red";
