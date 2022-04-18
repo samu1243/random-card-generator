@@ -45,12 +45,9 @@ window.onload = function() {
   signoInferior.innerHTML = signo;
   document.getElementById("signoInferior").style.transform = "rotate(180deg)";
   document.getElementById("signoInferior").innerHTML = signo;
-  if (signo === "♥") {
+  if (signo === "♥" || signo === "♦") {
     signoSuperior.style.color = "red";
     signoInferior.style.color = "red";
-  }
-  if (signo === "♦") {
-    signoSuperior.style.color = "red";
-    signoInferior.style.color = "red";
+    numeritosCentral.style.color = "red";
   }
 };
